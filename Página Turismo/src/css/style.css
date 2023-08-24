@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 35, 35);
+    color: white;
+    animation-duration: 1s;
+    animation-name: animacion-principal;
+}
+@keyframes animacion-principal{
+    from {
+        margin-bottom: 50%;
+        margin-top: 100%;
+        width: 150%;
+      }
+      to {
+        margin-bottom: 0%;
+        margin-top: 0%;
+        width: 100%;
+      }
+}
+.encabezado__image1{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+.encabezado__image3{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.encabezado__image2{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 790px;
+    height: 180px;
+}
+.encabezado__escudo1{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+.encabezado__escudo2{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.encabezado__bandera{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 790px;
+    height: 180px;
+}
+.encabezado-hoteles__imagen1{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.encabezado-hoteles__imagen3{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+.encabezado-hoteles__imagen2{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 790px;
+    height: 180px;
+}
+.lugares__imagen1{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen2{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen3{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen4{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen5{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen6{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen7{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen8{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.lugares__imagen9{
+    border: 5px white solid;
+    width: 500px;
+    height: 300px;
+}
+.encabezado-historia__imagen1{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.encabezado-historia__imagen3{
+    border-radius: 10%;
+    border: 5px whitesmoke solid;
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+.encabezado-historia__imagen2{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 790px;
+    height: 180px;
+}
+.historia_imagen1{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 790px;
+    height: 690px;
+}
+.hoteles__imagen1{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 400px;
+    height: 400px;
+}
+.hoteles__imagen2{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 400px;
+    height: 400px;
+}
+.hoteles__imagen3{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 400px;
+    height: 400px;
+}
+.hoteles__imagen4{
+    border: 5px whitesmoke solid;
+    border-radius: 15%;
+    width: 400px;
+    height: 400px;
+}
+.encabezado-historia__texto{
+    color: red;
+}
+.footer-historia__texto1{
+    color: red;
+}
+.lugares{
+    text-align: left;
+}
+.lugares__reich{
+    color: yellow;
+}
+.lugares__catedral{
+    color: yellow;
+}
+.lugares__castillo{
+    color: yellow;
+}
+.lugares__isla{
+    color: yellow;
+}
+.lugares__torre{
+    color: yellow;
+}
+.lugares__marienplatz{
+    color: yellow;
+}
+.lugares__east{
+    color: yellow;
+}
+.lugares__munch{
+    color: yellow;
+}
+.footer-fotos__texto{
+    color: yellow;
+}
+.encabezado__texto1{
+    color: yellow;
+}
+.lugares__brandeburgo{
+    color: yellow;
+}
+.encabezado__titulo{
+    color: red;
+}
+.mapa__texto{
+    color: red;
+}
+.mapa__imagen{
+    border: 5px red solid;
+}
+.footer-index__texto{
+    color: red;
+}
+.encabezado-hoteles__texto{
+    color: yellow;
+}
+.hoteles__mandala{
+    color: yellow;
+}
+.hoteles__Wellnesshotel{
+    color: yellow;
+}
+.hoteles__papa{
+    color: yellow;
+}
+.hoteles__der{
+    color: yellow;
+}
+.footer-formulario__texto{
+    color: yellow;
+}
+aside {
+    text-align: center;
+    padding: 20px; ;
+}
+header {
+    padding: 0px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+.encabezado-historia__boton{
+    width: 10%;
+    color: whitesmoke;
+}
+.encabezado-historia__boton::before{
+    content: "INICIO";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.encabezado-historia__boton:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
+.encabezado__boton-inicio{
+    width: 10%;
+    color: whitesmoke;
+}
+.encabezado__boton-inicio::before{
+    content: "INICIO";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.encabezado__boton-inicio:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
+.botones__fotos{
+    width: 10%;
+    color: whitesmoke;
+}
+.botones__fotos::before{
+    content: "LUGARES TURÍSTICOS";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.botones__fotos:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
+.botones__historia{
+    width: 10%;
+    color: whitesmoke;
+}
+.botones__historia::before{
+    content: "HISTORIA";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.botones__historia:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
+.botones__hoteles{
+    width: 10%;
+    color: whitesmoke;
+}
+.botones__hoteles::before{
+    content: "HOTELES";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.botones__hoteles:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
+.encabezado-hoteles__boton{
+    width: 10%;
+    color: whitesmoke;
+}
+.encabezado-hoteles__boton::before{
+    content: "INICIO";
+    color: whitesmoke;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;   
+}
+.encabezado-hoteles__boton:hover{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 5%;
+    padding: 0px;
+}
